@@ -4,7 +4,7 @@ All columns that include costs or prices need to be divided by 1,000,000.
 
 TIME and date columns have to be formatted.
 
-City values such as "(Not Set)" makes it harder to count how many city are null, therefore I will set specif strings that dont provide city values as NULL.
+City values such as "(Not Set)" makes it harder to count how many city are null, therefore I will set specific strings that dont provide city values as NULL.
 
 Columns that have either nulls for every row or the same value for every row cannot provide business insights, and I have decided to delete them to save space. (It is a safe practise to document it, ex. All sales have been in USD instead of noting down USD in every row).
 
